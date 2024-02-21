@@ -1,1 +1,1 @@
-export { default as ThemeProvider } from "./ThemeProvider.tsx";
+export { default as ThemeProvider, useTheme } from "./ThemeProvider.tsx";

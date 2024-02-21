@@ -1,4 +1,4 @@
-import { CommonButton } from "@/components";
+import { CommonButton, ThemeButton } from "@/components";
 import { Button, Input } from "@nextui-org/react";
 
 import type { ReactElement } from "react";
@@ -21,6 +21,7 @@ export default function HomePage(): ReactElement {
             />
             <Button>Boton</Button>
             <CommonButton />
+            <ThemeButton />
           </section>
         </main>
       </section>
