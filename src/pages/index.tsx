@@ -1,10 +1,13 @@
-/* Imports Pages */
-import HomePage from "./Home/index";
-
-/* Imports Pages */
+import loadable from "@loadable/component";
 
 import type { RouteObject } from "react-router-dom";
 
-const routes: Array<RouteObject> = [{ path: "/", element: <HomePage /> }];
+/* Imports Pages */
 
-export default routes;
+const HomePage = loadable(() => import("./Home/index"));
+
+/* Imports Pages */
+
+const PUBLIC_ROUTES: Array<RouteObject> = [{ path: "/", element: <HomePage /> }];
+
+export const TOTAL_APP_ROUTES: Array<RouteObject> = [...PUBLIC_ROUTES];
