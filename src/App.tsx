@@ -2,7 +2,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { NextUIProvider } from "@nextui-org/react";
 import { TOTAL_APP_ROUTES } from "@/pages/index";
-import { ThemeProvider } from "@/Providers";
+import { ThemeProvider } from "@/providers";
 import { Toaster } from "sonner";
 
 import type { ReactElement } from "react";

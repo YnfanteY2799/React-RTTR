@@ -11,10 +11,7 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "404-image": "url('/statics/error/404.avif')",
-        "500-image": "url('/statics/error/500.avif')",
-      },
+      backgroundImage: {},
     },
   },
   darkMode: "class",

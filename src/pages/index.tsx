@@ -4,7 +4,7 @@ import type { RouteObject } from "react-router-dom";
 
 /* Imports Pages */
 
-const HomePage = loadable(() => import("./Home/index"));
+const HomePage = loadable(() => import("./Home/index.tsx"));
 
 /* Imports Pages */
 

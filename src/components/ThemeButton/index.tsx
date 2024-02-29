@@ -1,4 +1,4 @@
-import { useTheme } from "@/Providers";
+import { useTheme } from "@/providers";
 import { Button } from "@nextui-org/react";
 
 export default function CommonThemeBTN() {
